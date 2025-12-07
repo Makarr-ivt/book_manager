@@ -10,7 +10,6 @@ private:
     void pauseAndClear() const;
     int inputInt(const string& prompt, int min = INT_MIN, int max = INT_MAX) const;
 
-public:
     void addBook();
     void deleteBook();
     void editBook();
@@ -19,6 +18,7 @@ public:
     void showBooksByAuthor() const;
     void showBooksByPages() const;
     void showBooksAfterYear() const;
+public:
 
     void run();
 };
