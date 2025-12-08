@@ -182,7 +182,7 @@ void BookManager::showBooksByAuthor() const {
     int count = 0;
 
     for (const auto& book : books) {
-        if (book.getAuthor() == author.) {
+        if (book.getAuthor() == author) {
             book.show();
             count++;
         }
